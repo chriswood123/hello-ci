@@ -1,0 +1,9 @@
+pipeline:
+  build:
+    image: python:3.6
+    commands:
+      - python test_hello.py
+  publish:
+    image: chriswood123/drone-hello:latest
+    when:
+      branch: master
