@@ -4,7 +4,7 @@ pipeline:
     commands:
       - python test_hello.py
   publish:
-    image: chriswood123/drone-hello:latest
+    image: chriswood123/hello-drone:latest
     dockerfile: Dockerfile.drone
     when:
       branch: master
