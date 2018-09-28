@@ -1,7 +1,7 @@
 import os
 
 def say_hello(hello_string):
-    return 'Hello {}'.format(hello_string)
+    return 'break {}'.format(hello_string)
 
 if __name__ == '__main__':
     if 'PLUGIN_HELLO' in os.environ:
