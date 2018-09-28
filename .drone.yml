@@ -8,3 +8,6 @@ pipeline:
     dockerfile: Dockerfile.drone
     when:
       branch: master
+  test_new_version:
+    image: chriswood123/hello-drone:latest
+    hello: test
