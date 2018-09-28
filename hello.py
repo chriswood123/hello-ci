@@ -7,6 +7,6 @@ if __name__ == '__main__':
     if 'PLUGIN_HELLO' in os.environ:
         hello_string = os.environ['PLUGIN_HELLO']
     else:
-        hello_string = 'world'
+        hello_string = 'dave'
 
     print(say_hello(hello_string))
